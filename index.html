@@ -9,6 +9,10 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans|Oswald&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
@@ -33,7 +37,7 @@
           </li>
         </ul>
       </nav>
-      <div class="header__icon">
+      <div class="header__icon shadow">
         <img
           class="header__icon--image"
           src="./assets/plus-icon.png"
@@ -42,59 +46,142 @@
       </div>
     </header>
 
-    <main>
-      <section>
-        <article>
-          <img src="" alt="features" />
-          <h2>Features</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
-            laboriosam vel delectus? Consequuntur ex omnis labore quisquam, qui
-            eius laboriosam. Maiores at beatae, est sunt sequi libero
-            exercitationem asperiores vel.
-          </p>
-          <hr />
-          <a href="/">Read our features</a>
-        </article>
-      </section>
-      <section>
-        <h2>Details</h2>
-        <ul>
-          <li>
-            <img src="" alt="imagen" />
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ut
-              nemo consectetur quasi quam, ducimus cupiditate aspernatur nisi
-              sint dignissimos dolore autem fugiat dolor aut repellendus aperiam
-              quibusdam dicta magni
-              <a href="/">Proident minim.</a>
-            </p>
-          </li>
-          <li>
-            <img src="" alt="imagen" />
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ut
-              nemo consectetur quasi quam, ducimus cupiditate aspernatur nisi
-              sint dignissimos dolore autem fugiat dolor aut repellendus aperiam
-              quibusdam dicta magni
-              <a href="/">Proident minim.</a>
-            </p>
-          </li>
-          <li>
-            <img src="" alt="imagen" />
-            <h3>Lorem ipsum dolor sit amet</h3>
-            <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ut
-              nemo consectetur quasi quam, ducimus cupiditate aspernatur nisi
-              sint dignissimos dolore autem fugiat dolor aut repellendus aperiam
-              quibusdam dicta magni
-              <a href="/">Proident minim.</a>
-            </p>
-          </li>
-        </ul>
-      </section>
+    <main class="main pt-5">
+      <div class="container">
+        <div class="card shadow">
+          <div class="row no-gutters">
+            <div
+              class="
+                col-sm-4 col-lg-3
+                d-flex
+                align-items-center
+                justify-content-center
+                p-0
+                bg-turquoise
+              "
+            >
+              <img src="./assets/play-icon.png" alt="play" />
+            </div>
+            <div class="col-sm-8 col-lg-9 pl-0">
+              <div class="card-body p-0">
+                <img
+                  class="article__options"
+                  src="./assets/menu-icon.png"
+                  alt="menu"
+                />
+                <h3 class="card-title article__title pl-5 pt-5">Features</h3>
+                <p class="card-text article__paragraph pl-5 pt-3 pr-3 pb-3">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo
+                  laboriosam vel delectus? Consequuntur ex omnis labore
+                  quisquam, qui eius laboriosam. Maiores at beatae, est sunt
+                  sequi libero exercitationem asperiores vel.
+                </p>
+                <hr />
+                <p>
+                  <a class="article__link pl-5" href="#">Read our features</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mt-5 mb-5">
+        <div class="card shadow">
+          <div>
+            <img
+              class="article__options"
+              src="./assets/menu-icon.png"
+              alt="menu"
+            />
+          </div>
+          <h3 class="article__title pl-5 pt-3 pb-3">Details</h3>
+          <div class="row no-gutters">
+            <div class="col-sm-4 col-lg-2 d-flex justify-content-center p-0">
+              <div class="bg-purple"></div>
+            </div>
+            <div class="col-sm-8 col-lg-10 pl-0">
+              <div class="card-body pl-3 pr-5 pt-0 pb-0">
+                <h5 class="article__paragraph font-weight-bold">
+                  Lorem ipsum dolor sit amet
+                </h5>
+                <p class="article__paragraph">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iusto ut nemo consectetur quasi quam, ducimus cupiditate
+                  aspernatur nisi sint dignissimos dolore autem fugiat dolor aut
+                  repellendus aperiam quibusdam dicta magni
+                  <a href="/">Proident minim.</a>
+                </p>
+                <hr />
+              </div>
+            </div>
+          </div>
+
+          <div class="row no-gutters">
+            <div class="col-sm-4 col-lg-2 d-flex justify-content-center p-0">
+              <div class="bg-purple"></div>
+            </div>
+            <div class="col-sm-8 col-lg-10 pl-0">
+              <div class="card-body pl-3 pr-5 pt-0 pb-0">
+                <h5 class="article__paragraph font-weight-bold">
+                  Lorem ipsum dolor sit amet
+                </h5>
+                <p class="article__paragraph">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iusto ut nemo consectetur quasi quam, ducimus cupiditate
+                  aspernatur nisi sint dignissimos dolore autem fugiat dolor aut
+                  repellendus aperiam quibusdam dicta magni
+                  <a href="/">Proident minim.</a>
+                </p>
+                <hr />
+              </div>
+            </div>
+          </div>
+
+          <div class="row no-gutters">
+            <div class="col-sm-4 col-lg-2 d-flex justify-content-center p-0">
+              <div class="bg-purple"></div>
+            </div>
+            <div class="col-sm-8 col-lg-10 pl-0">
+              <div class="card-body pl-3 pr-5 pt-0 pb-0">
+                <h5 class="article__paragraph font-weight-bold">
+                  Lorem ipsum dolor sit amet
+                </h5>
+                <p class="article__paragraph">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iusto ut nemo consectetur quasi quam, ducimus cupiditate
+                  aspernatur nisi sint dignissimos dolore autem fugiat dolor aut
+                  repellendus aperiam quibusdam dicta magni
+                  <a href="/">Proident minim.</a>
+                </p>
+                <hr />
+              </div>
+            </div>
+          </div>
+
+          <div class="row no-gutters">
+            <div class="col-sm-4 col-lg-2 d-flex justify-content-center p-0">
+              <div class="bg-purple"></div>
+            </div>
+            <div class="col-sm-8 col-lg-10 pl-0">
+              <div class="card-body pl-3 pr-5 pt-0 pb-0">
+                <h5 class="article__paragraph font-weight-bold">
+                  Lorem ipsum dolor sit amet
+                </h5>
+                <p class="article__paragraph">
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iusto ut nemo consectetur quasi quam, ducimus cupiditate
+                  aspernatur nisi sint dignissimos dolore autem fugiat dolor aut
+                  repellendus aperiam quibusdam dicta magni
+                  <a href="/">Proident minim.</a>
+                </p>
+                <hr />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
+    <button class="button__view-source p-2 shadow">View Source</button>
   </body>
 </html>
