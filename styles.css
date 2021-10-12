@@ -1,1 +1,12 @@
-
+:root {
+  --purple-light: #5d37b1;
+  --purple-dark: #4528a1;
+  --pink: #fc4280;
+  --turquoise-light: #b2dfda;
+  --turquoise-dark: #58bac5;
+  --gray: #a1a1a1;
+  --gray-dark: #767676;
+  --white: #ffffff;
+  --main-font: "Oswald", sans-serif;
+  --secondary-font: "Open Sans", sans-serif;
+}
