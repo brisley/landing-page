@@ -10,3 +10,52 @@
   --main-font: "Oswald", sans-serif;
   --secondary-font: "Open Sans", sans-serif;
 }
+
+.header__title {
+  font-family: var(--main-font);
+  color: var(--white);
+  background-color: var(--purple-light);
+  padding: 40px 20px;
+  font-size: 40px;
+  margin: 0;
+}
+
+.header__menu {
+  background-color: var(--purple-dark);
+}
+
+.header__menu--list {
+  margin: 0;
+  list-style: none;
+  text-align: left;
+  padding: 20px;
+}
+.header__menu--list-item {
+  display: inline;
+  margin-right: 30px;
+}
+
+.header__menu--list-item a {
+  font-family: var(--secondary-font);
+  color: var(--white);
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.header__icon {
+  position: relative;
+  float: right;
+  top: -26px;
+  left: -26px;
+  background-color: var(--pink);
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__icon--image {
+  width: 16px;
+}
